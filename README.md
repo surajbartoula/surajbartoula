@@ -1,6 +1,6 @@
 - 👋 Hi, I’m surajbartoula
 - 👀 I’m interested in backend development using Node.js and Fastify.
-- 🌱 I’m currently learning backend development at 42 Abu Dhabi.
+- 🌱 I’m currently learning backend development with ASP.net and Node.js at 42 Abu Dhabi.
 - 💞️ I’m looking to collaborate on full-stack web development using React, Next.js and Node.js with Fastify.
 - 📫 How to reach me suraj_bartoula@yahoo.com
 
