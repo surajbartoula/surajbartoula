@@ -1,7 +1,7 @@
 - 👋 Hi, I’m surajbartoula
 - 👀 I’m interested in backend development using Node.js and Fastify/Express.
 - 🌱 I’m currently learning backend development with ASP.net.
-- 💞️ I’m looking to collaborate on full-stack web development using React, Next.js and Node.js with Fastify/Express.
+- 💞️ I’m looking to collaborate on full-stack web development using React and Node.js with Fastify/Express.
 - 📫 How to reach me suraj_bartoula@yahoo.com
 
 <!---
