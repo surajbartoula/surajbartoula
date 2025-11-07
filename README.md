@@ -6,6 +6,7 @@
 ---
 
 ## 🛠 Tech Stack  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
 ![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
