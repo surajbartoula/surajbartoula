@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Suraj Bartoula  
 
-💻 **Backend Developer** | Node.js • Fastify • Express • ASP.NET  
+💻 **FullStack Developer** | React • Node.js • Fastify • Express • ASP.NET  
 🚀 Passionate about building scalable, high-performance APIs with TypeScript, JavaScript, and C#  
 
 ---
