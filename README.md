@@ -1,44 +1,55 @@
 # 👋 Hi, I'm Suraj Bartoula  
 
-💻 **FullStack Developer** | React • Node.js • Fastify • Express • ASP.NET  
-🚀 Passionate about building scalable, high-performance APIs with TypeScript, JavaScript, and C#  
+💻 FullStack Developer | React • Django • FastAPI • PostgreSQL  
+🚀 Passionate about building scalable web apps and high-performance APIs  
 
 ---
 
 ## 🛠 Tech Stack  
+
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
-![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/-ASP.NET-512BD4?logo=dotnet&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 
 ---
 
 ## 🌱 Currently Learning  
-- Advanced **ASP.NET backend development**
-- Optimizing APIs for **performance and scalability**
+
+- Data Science (Linear Regression)  
+- Advanced backend development with Django & FastAPI  
+- Database optimization with PostgreSQL  
+- API performance and system design  
 
 ---
 
 ## 🤝 Collaboration  
+
 I’m open to collaborating on:
-- Full-stack projects (**React + Node.js/Fastify/Express**)
-- Backend-heavy projects with **C# and ASP.NET**
+
+- Full-stack projects (React + Django/FastAPI)  
+- Backend APIs with Python  
+- Database-driven apps with PostgreSQL  
 
 ---
 
 ## 📫 Contact Me  
-📧 **Email:** [suraj_bartoula@yahoo.com](mailto:suraj_bartoula@yahoo.com)  
-💼 **LinkedIn:** *[https://www.linkedin.com/in/surajbartoula/]*
+
+📧 Email: suraj_bartoula@yahoo.com  
+💼 LinkedIn: https://www.linkedin.com/in/surajbartoula/  
 
 ---
 
 ## 📊 GitHub Stats  
-![Suraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=surajbartoula&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=compact&theme=radical)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=surajbartoula&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+</p>
 
 ---
-✨ *"Turning coffee into clean, scalable code."*
+
+✨ Turning ideas into scalable products with clean code.
