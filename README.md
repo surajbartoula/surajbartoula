@@ -31,11 +31,6 @@
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=surajbartoula&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Language Percentages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=surajbartoula&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="Overall Stats" />
 </p>
 
 ---
