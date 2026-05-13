@@ -46,8 +46,8 @@ I’m open to collaborating on:
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=surajbartoula&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=surajbartoula&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 ---
