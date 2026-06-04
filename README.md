@@ -28,9 +28,6 @@
 <p align="center">
   <img src="github-metrics.svg" alt="Detailed GitHub Metrics" width="80%" />
 </p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=surajbartoula&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-</p>
 
 ---
 
