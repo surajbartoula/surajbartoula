@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}] # Runs daily at midnight
-  workflow_dispatch:              # Allows you to run it manually
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:              
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -10,21 +10,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34   # Pinning to a stable release prevents hanging bugs
-        timeout-minutes: 15              # Fails fast so it doesn't waste your runner time
+      - uses: lowlighter/metrics@v3.34   
+        timeout-minutes: 5 # Bring this down to 5 mins so you don't have to wait
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: surajbartoula
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories # Only fetching basic header and repo count
           config_timezone: Europe/Paris
           
-          # Force the action to give up early if GitHub's API is choking
-          config_twemojis: yes
-          # config_order: base.header, base.activity+community, base.repositories
-
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: percentage
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
+          # Commenting these out temporarily to isolate the issue:
+          # plugin_languages: yes
+          # plugin_languages_ignored: html, css
+          # plugin_languages_details: percentage
+          # plugin_languages_sections: most-used
+          # plugin_languages_limit: 8
