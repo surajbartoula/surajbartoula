@@ -1,7 +1,7 @@
 name: Metrics
 on:
   schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:              
+  workflow_dispatch:
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -10,19 +10,16 @@ jobs:
     permissions:
       contents: write
     steps:
-        - uses: lowlighter/metrics@v3.34
-          timeout-minutes: 10
-          with:
-            token: ${{ secrets.METRICS_TOKEN }}
-            user: surajbartoula
-            template: classic
-            base: header, repositories
-            config_timezone: Europe/Paris
-            repositories: 15
+      - uses: lowlighter/metrics@latest # 1. Upgrade to the latest version
+        timeout-minutes: 5
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: surajbartoula
+          template: classic
+          base: header, repositories
+          config_timezone: Europe/Paris
           
-          # Commenting these out temporarily to isolate the issue:
-          # plugin_languages: yes
-          # plugin_languages_ignored: html, css
-          # plugin_languages_details: percentage
-          # plugin_languages_sections: most-used
-          # plugin_languages_limit: 8
+          # 2. Limit the API burden by fetching fewer repositories at a time
+          repositories_batch: 20 
+          
+          # Commented out plugins remain here...
