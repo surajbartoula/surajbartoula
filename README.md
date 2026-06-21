@@ -25,6 +25,7 @@
 ---
 
 ## 📊 GitHub Stats
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=surajbartoula&layout=donut&theme=tokyonight)
 <p align="center">
   <img src="github-metrics.svg" alt="Detailed GitHub Metrics" width="80%" />
 </p>
