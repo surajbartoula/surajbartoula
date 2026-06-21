@@ -10,14 +10,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34   
-        timeout-minutes: 5 # Bring this down to 5 mins so you don't have to wait
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: surajbartoula
-          template: classic
-          base: header, repositories # Only fetching basic header and repo count
-          config_timezone: Europe/Paris
+        - uses: lowlighter/metrics@v3.34
+          timeout-minutes: 10
+          with:
+            token: ${{ secrets.METRICS_TOKEN }}
+            user: surajbartoula
+            template: classic
+            base: header, repositories
+            config_timezone: Europe/Paris
+            repositories: 15
           
           # Commenting these out temporarily to isolate the issue:
           # plugin_languages: yes
